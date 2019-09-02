@@ -3,7 +3,7 @@
 
 describe('MemoryGame constructor', function () {
   beforeEach(function () {
-    memoryGame = new MemoryGame([]);
+     memoryGame = new MemoryGame([]);
   });
 
   it('Create MemoryGame object', function () {
