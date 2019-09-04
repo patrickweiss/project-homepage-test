@@ -39,7 +39,6 @@ class MemoryGame {
       }
       else {
         console.log("It's not a pair :(");
- 
         const cardDiv1 = this.pickedCards[0].parentNode;
         const cardDiv2 = this.pickedCards[1].parentNode;
         const that = this ;

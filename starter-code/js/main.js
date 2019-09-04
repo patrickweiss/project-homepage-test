@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Bind the click event of each element to a function
   document.querySelectorAll('.back').forEach( card => {
     card.onclick = function() {
-      memoryGame.selectCard(this);
+      memoryGame.selectCard(card);
       console.log('Card clicked: ', card);
     };
   });
